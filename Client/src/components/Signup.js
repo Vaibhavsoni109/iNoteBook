@@ -15,7 +15,7 @@ const Signup = () => {
     const {name,email,password}=credentials;
     e.preventDefault();
 
-    const response = await fetch("https://inotebook-rm2s.onrender.com/api/auth/createuser", {
+    const response = await fetch("https://inotebook-nl6n.onrender.com/api/auth/createuser", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
 
       headers: {
