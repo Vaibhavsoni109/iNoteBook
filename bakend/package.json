@@ -4,6 +4,7 @@
   "description": "this is a cloud based iNotebook",
   "main": "index.js",
   "scripts": {
+    "start": "node index1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vaibhav",
