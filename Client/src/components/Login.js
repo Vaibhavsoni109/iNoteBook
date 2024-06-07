@@ -8,7 +8,7 @@ const Login = () => {
     e.preventDefault();
    
 
-    const response = await fetch("http://localhost:5000/api/auth/login", {
+    const response = await fetch("https://inotebook-nl6n.onrender.com/api/auth/login", {
       method: "POST", // *GET, POST, PUT, DELETE, etc
       headers: {
         "Content-Type": "application/json",
